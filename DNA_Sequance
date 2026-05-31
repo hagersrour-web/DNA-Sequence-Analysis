@@ -1,0 +1,6 @@
+DNA= input("Please Enter your Sequance: ")
+print("Nucleotides are ",(len(DNA))) 
+print ("GC Content is ",(DNA.count("G"))+(DNA.count("C"))/len(DNA)*100, "%")
+print ("Purines are ",(DNA.count("A"))+(DNA.count("G")))
+print ("Pyrimidines are ",(DNA.count("T"))+(DNA.count("C")))
+print ("Purines Content is ",(DNA.count("A"))+(DNA.count("G"))/len(DNA)*100, "%")
